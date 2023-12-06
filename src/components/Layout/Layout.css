@@ -1,0 +1,9 @@
+.layout_conti{
+    display: flex;
+}
+.sidebar{
+    width: 250px;
+}
+.maincontent{
+    flex: 1;
+}

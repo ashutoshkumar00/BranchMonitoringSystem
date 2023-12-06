@@ -1,0 +1,49 @@
+.featured {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .featuredItem {
+    flex: 1;
+    margin: 0 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .featuredTitle {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+  }
+  
+  .featuredData {
+    margin: 10px 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .dataValue {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .icon {
+    font-size: 20px;
+    margin-right: 8px;
+  }
+  
+  .employeeIcon {
+    color: blue;
+  }
+  
+  .customerIcon {
+    color: red; /* Change color if desired */
+  }
+  
+  .salesIcon {
+    color: green;
+  }
+  

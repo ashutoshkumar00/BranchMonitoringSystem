@@ -1,0 +1,13 @@
+.container{
+  display: flex;
+  margin-top: 10px;
+}
+.o{
+  flex: 4;
+  background-color: rgb(148, 201, 201);
+}
+
+.link{
+  text-decoration: none;
+  color: inherit;
+}

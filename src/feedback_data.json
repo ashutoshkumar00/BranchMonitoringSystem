@@ -1,0 +1,39 @@
+{
+    "feedbackdata":[
+    {
+      "id": 1,
+      "rating": 4,
+      "customer_name": "Customer 1",
+      "employee_name": "Employee 1A",
+      "service_name": "Deposit"
+    },
+    {
+      "id": 2,
+      "rating": 3,
+      "customer_name": "Customer 2",
+      "employee_name": "Employee 2A",
+      "service_name": "Withdrawal"
+    },
+    {
+      "id": 3,
+      "rating": 5,
+      "customer_name": "Customer 3",
+      "employee_name": "Employee 1B",
+      "service_name": "Loan Application"
+    },
+    {
+      "id": 4,
+      "rating": 2,
+      "customer_name": "Customer 4",
+      "employee_name": "Employee 2B",
+      "service_name": "Deposit"
+    },
+    {
+      "id": 5,
+      "rating": 5,
+      "customer_name": "Customer 5",
+      "employee_name": "Employee 1A",
+      "service_name": "Withdrawal"
+    }
+  ]
+}  

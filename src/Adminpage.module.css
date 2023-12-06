@@ -1,0 +1,18 @@
+.main{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body{
+    background: linear-gradient(135deg, #0061b1, #ffffff);
+}
+.chart{
+   
+    width: 1500px;
+    padding-top: 50px;
+    padding-left: 315px;
+    padding-bottom: 50px;
+    margin-left: 100px;
+}

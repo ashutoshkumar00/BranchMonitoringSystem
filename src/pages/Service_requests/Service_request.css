@@ -1,0 +1,99 @@
+.tablecontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px
+}
+.service-table {
+    width: 100%;
+    /* border-collapse: collapse; */
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding box shadow */
+  }
+  
+  /* Table header styles */
+  .service-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  /* Table row styles */
+  .service-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  /* Hover effect on table rows */
+  .service-table tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Button styles */
+  .service-table button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .service-table button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* styles.css */
+
+/* Style the filter dropdown container */
+.filter-dropdown {
+    flex-direction: column;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+  
+  /* Style the label for the dropdown */
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* Style the select dropdown */
+  select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  /* Align the filter dropdown to the left with margin */
+  .ri-delete-bin-line{
+    color: red;
+    size: 5px;
+
+  }
+  /* CSS file */
+.completed {
+  color: green; /* Set color for Completed status */
+}
+
+.pending {
+  color: rgb(255, 187, 0); /* Set color for Pending status */
+}
+
+.assigned {
+  color: red; /* Set color for Assigned status */
+}
+
+  

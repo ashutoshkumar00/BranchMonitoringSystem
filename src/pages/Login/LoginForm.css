@@ -1,0 +1,87 @@
+/* LoginForm.css */
+
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles for the login container */
+.lcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #0061b1, #ffffff);
+}
+
+/* Styles for the login box */
+.login-box {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+}
+
+/* Heading styles */
+h2 {
+  margin-bottom: 30px;
+  color: #333333;
+  font-size: 28px;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input styles */
+.input-group {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555555;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 16px;
+  flex: 1;
+}
+
+/* Button styles */
+button {
+  padding: 12px 20px;
+  background-color: #ff6b6b;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff0a0a;
+}
+
+/* Font Awesome icons */
+.fa-user,
+.fa-lock {
+  margin-right: 10px;
+  font-size: 18px;
+}

@@ -1,0 +1,74 @@
+{
+  "service_requests": [
+    {
+      "id": 1,
+      "customer_name": "Customer 1",
+      "employee_name": "Employee 1A",
+      "service_name": "Deposit",
+      "start_time": "2023-01-05T10:00:00Z",
+      "end_time": "2023-01-05T11:30:00Z",
+      "status": "Completed",
+      "branch_id": 1
+    },
+    {
+      "id": 2,
+      "customer_name": "Customer 2",
+      "employee_name": "Employee 2A",
+      "service_name": "Withdrawal",
+      "start_time": "2023-02-12T14:30:00Z",
+      "end_time": "2023-02-12T15:45:00Z",
+      "status": "Assigned",
+      "branch_id": 1
+    },
+    {
+      "id": 3,
+      "customer_name": "Customer 3",
+      "employee_name": "Employee 1B",
+      "service_name": "Loan Application",
+      "start_time": "2023-03-20T09:45:00Z",
+      "end_time": "",
+      "status": "Pending",
+      "branch_id": 2
+    },
+    {
+      "id": 4,
+      "customer_name": "Customer 4",
+      "employee_name": "Employee 2B",
+      "service_name": "Deposit",
+      "start_time": "2023-04-08T11:30:00Z",
+      "end_time": "2023-04-08T12:45:00Z",
+      "status": "Assigned",
+      "branch_id": 2
+    },
+    {
+      "id": 5,
+      "customer_name": "Customer 5",
+      "employee_name": "Employee 1A",
+      "service_name": "Withdrawal",
+      "start_time": "2023-05-15T13:00:00Z",
+      "end_time": "2023-05-15T14:15:00Z",
+      "status": "Completed",
+      "branch_id": 1
+    },
+    {
+      "id": 6,
+      "customer_name": "Customer 2",
+      "employee_name": "Employee 2A",
+      "service_name": "Loan Application",
+      "start_time": "2023-06-22T10:30:00Z",
+      "end_time": "2023-06-22T11:45:00Z",
+      "status": "Pending",
+      "branch_id": 1
+    },
+    {
+      "id": 7,
+      "customer_name": "Customer 1",
+      "employee_name": "Employee 1B",
+      "service_name": "Deposit",
+      "start_time": "2023-07-10T14:00:00Z",
+      "end_time": "2023-07-10T15:30:00Z",
+      "status": "Assigned",
+      "branch_id": 2
+    }
+  ]
+}
